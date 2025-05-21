@@ -1,0 +1,41 @@
+.Footer-container {
+  position: relative;
+}
+
+.Footer-container>hr{
+    border: 1px solid var(--lightgray);
+}
+
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+
+.social-links{
+    display: flex;
+    gap: 4rem;
+}
+
+.social-links > img {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+}
+
+.logo-f > img {
+  width: 6rem !important;
+  height: auto !important;
+}
+
+.copyright{
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+
